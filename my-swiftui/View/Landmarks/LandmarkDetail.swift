@@ -22,7 +22,7 @@ struct LandmarkDetail: View {
                     Spacer()
                     Text(landmark.state)
                     
-                }.font(.subheadline).foregroundColor(Color.init(red: , green: 0, blue: 0, opacity: 1))
+                }.font(.subheadline).foregroundColor(Color.init(red: 0, green: 0, blue: 0, opacity: 1))
                 Divider()
                 Text("About \(landmark.name)")
                     .font(.title2)
@@ -36,6 +36,6 @@ struct LandmarkDetail: View {
 
 struct LandmarkDetail_Previews: PreviewProvider {
     static var previews: some View {
-        LandmarkDetail(landmark: landmarks[0])
+        LandmarkDetail(landmark: ModelData().landmarks[0])
     }
 }
