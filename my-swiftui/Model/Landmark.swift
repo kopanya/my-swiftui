@@ -4,6 +4,12 @@
 //
 //  Created by yaoyuan on 2021/7/26.
 //
+/**
+ *
+ *
+ *
+ *
+ */
 
 import Foundation
 import SwiftUI
@@ -15,6 +21,7 @@ struct Landmark: Hashable, Codable, Identifiable {
     var park: String
     var state: String
     var description: String
+    var isFavorite: Bool
     
     private var imageName:String
     

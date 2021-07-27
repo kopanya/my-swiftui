@@ -32,7 +32,9 @@ struct HikeView: View {
                     Image(systemName: "chevron.right.circle")
                         .imageScale(.large)
                         .rotationEffect(.degrees(showDetail ? 90 : 0))
+                        .scaleEffect(showDetail ? 1.5 : 1)
                         .padding()
+                        .animation(.spring())
                 }
             }
 
