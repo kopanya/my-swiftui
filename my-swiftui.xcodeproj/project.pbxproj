@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E3D9C2426B00636003B9CE2 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3D9C2326B00636003B9CE2 /* CategoryHome.swift */; };
+		2E7BCE8B26B029B4001CCE36 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7BCE8A26B029B3001CCE36 /* CategoryRow.swift */; };
+		2E7BCE8F26B02B43001CCE36 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7BCE8E26B02B43001CCE36 /* CategoryItem.swift */; };
+		2E7BCE9126BA3B3E001CCE36 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7BCE9026BA3B3E001CCE36 /* Profile.swift */; };
+		2E7BCE9426BA3C11001CCE36 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7BCE9326BA3C11001CCE36 /* ProfileHost.swift */; };
+		2E7BCE9626BA3D53001CCE36 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7BCE9526BA3D53001CCE36 /* ProfileSummary.swift */; };
 		2EBA12B326AE961E003126ED /* my_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA12B226AE961E003126ED /* my_swiftuiApp.swift */; };
 		2EBA12B526AE961E003126ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA12B426AE961E003126ED /* ContentView.swift */; };
 		2EBA12B726AE9621003126ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EBA12B626AE9621003126ED /* Assets.xcassets */; };
@@ -46,6 +52,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E3D9C2326B00636003B9CE2 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
+		2E7BCE8A26B029B3001CCE36 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		2E7BCE8E26B02B43001CCE36 /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
+		2E7BCE9026BA3B3E001CCE36 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		2E7BCE9326BA3C11001CCE36 /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
+		2E7BCE9526BA3D53001CCE36 /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 		2EBA12AF26AE961E003126ED /* my-swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "my-swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EBA12B226AE961E003126ED /* my_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = my_swiftuiApp.swift; sourceTree = "<group>"; };
 		2EBA12B426AE961E003126ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +109,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E3D9C2226B00619003B9CE2 /* Gategories */ = {
+			isa = PBXGroup;
+			children = (
+				2E3D9C2326B00636003B9CE2 /* CategoryHome.swift */,
+				2E7BCE8A26B029B3001CCE36 /* CategoryRow.swift */,
+				2E7BCE8E26B02B43001CCE36 /* CategoryItem.swift */,
+			);
+			path = Gategories;
+			sourceTree = "<group>";
+		};
+		2E7BCE9226BA3BFB001CCE36 /* Profiles */ = {
+			isa = PBXGroup;
+			children = (
+				2E7BCE9326BA3C11001CCE36 /* ProfileHost.swift */,
+				2E7BCE9526BA3D53001CCE36 /* ProfileSummary.swift */,
+			);
+			path = Profiles;
+			sourceTree = "<group>";
+		};
 		2EBA12A626AE961E003126ED = {
 			isa = PBXGroup;
 			children = (
@@ -175,6 +206,8 @@
 		2EBA12F026AEAA54003126ED /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2E7BCE9226BA3BFB001CCE36 /* Profiles */,
+				2E3D9C2226B00619003B9CE2 /* Gategories */,
 				2EBA130E26AFA3F3003126ED /* Hikes */,
 				2EBA130C26AEE9E1003126ED /* Badge */,
 				2EBA12FF26AED864003126ED /* Helpers */,
@@ -190,6 +223,7 @@
 				2EBA12E426AEA721003126ED /* Landmark.swift */,
 				2EBA12E626AEA8B2003126ED /* ModelData.swift */,
 				2EBA131C26AFA4B5003126ED /* Hike.swift */,
+				2E7BCE9026BA3B3E001CCE36 /* Profile.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -320,16 +354,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E7BCE8B26B029B4001CCE36 /* CategoryRow.swift in Sources */,
 				2EBA12B526AE961E003126ED /* ContentView.swift in Sources */,
+				2E3D9C2426B00636003B9CE2 /* CategoryHome.swift in Sources */,
 				2EBA130B26AEE8F9003126ED /* Badge.swift in Sources */,
 				2EBA12C426AEA10E003126ED /* MapView.swift in Sources */,
 				2EBA12B326AE961E003126ED /* my_swiftuiApp.swift in Sources */,
 				2EBA131926AFA3F3003126ED /* HikeView.swift in Sources */,
 				2EBA12FD26AED7A8003126ED /* FavoriteButton.swift in Sources */,
 				2EBA130126AEE1FA003126ED /* HexagonParameters.swift in Sources */,
+				2E7BCE8F26B02B43001CCE36 /* CategoryItem.swift in Sources */,
 				2EBA130926AEE8BF003126ED /* RotatedBadgeSymbol.swift in Sources */,
 				2EBA130726AEE870003126ED /* BadgeSymbol.swift in Sources */,
+				2E7BCE9626BA3D53001CCE36 /* ProfileSummary.swift in Sources */,
 				2EBA12F926AEAEFC003126ED /* LandmarkList.swift in Sources */,
+				2E7BCE9426BA3C11001CCE36 /* ProfileHost.swift in Sources */,
+				2E7BCE9126BA3B3E001CCE36 /* Profile.swift in Sources */,
 				2EBA131D26AFA4B5003126ED /* Hike.swift in Sources */,
 				2EBA12FB26AEB001003126ED /* LandmarkDetail.swift in Sources */,
 				2EBA130326AEE2CF003126ED /* BadgeBackground.swift in Sources */,
